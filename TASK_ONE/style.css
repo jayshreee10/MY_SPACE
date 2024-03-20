@@ -1,21 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
   background-color: black;
+  padding: 0px;
+  margin: 0px;
+  font-family: Poppins;
 }
 #Header {
   color: white;
   width: 100vw;
   height: 10vh;
-  font-size: 50px;
   text-align: center;
   font-weight: bolder;
   letter-spacing: 5px;
-  border-bottom: 2px, white;
+  border-bottom: 1px solid rgb(26, 25, 25);
+  padding-top: 10px;
 }
-
+h1 {
+  margin-top: 10px;
+}
 #Banner {
   color: white;
-  /* height: 100vh;
-  width: 100vw; */
+  margin-top: 10px;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("assets/banner/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#About {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  flex-direction: column;
+  font-weight: 200;
+  font-size: 40px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 590px;
+  background-color: transparent;
+}
+h2 {
+  background-color: transparent;
+  opacity:40% ;
+  letter-spacing: 5px;
+}
+#Banner img {
+  height: 20px;
+  width: 20px;
+  background-color: transparent;
+  align-self: center;
   margin-top: 10px;
 }
 #Content {
@@ -44,7 +81,7 @@
   width: 300px;
   background-color: white;
   border-radius: 10px;
-  box-shadow: 0px 4px 60px #5a31b2;
+  box-shadow: 0px 4px 60px #B2314A;
 }
 #titleOne {
   margin-top: 20px;
@@ -54,7 +91,7 @@
   align-items: center;
   background-color: white;
   color: black;
-  font-size: large;
+  font-size: 20px;
   font-weight: bold;
 }
 #card_one img {
@@ -65,16 +102,18 @@
   margin-top: -3px;
 }
 p {
+  margin-top: 5px;
   background-color: white;
   color: black;
   text-align: center;
+  font-size: 12px;
 }
 #card_two {
   height: 150px;
   width: 300px;
   background-color: white;
   border-radius: 10px;
-  box-shadow: 0px 4px 60px #5a31b2;
+  box-shadow: 0px 4px 60px #B2314A;
 }
 #titleTwo {
   margin-top: 20px;
@@ -84,7 +123,7 @@ p {
   align-items: center;
   background-color: white;
   color: black;
-  font-size: large;
+  font-size: 20px;
   font-weight: bold;
 }
 #card_two img {
@@ -99,7 +138,7 @@ p {
   width: 300px;
   background-color: white;
   border-radius: 10px;
-  box-shadow: 0px 4px 60px #5a31b2;
+  box-shadow: 0px 4px 60px #B2314A;
 }
 #titleThree {
   margin-top: 20px;
@@ -109,7 +148,7 @@ p {
   align-items: center;
   background-color: white;
   color: black;
-  font-size: large;
+  font-size: 20px;
   font-weight: bold;
 }
 #card_three img {
@@ -133,17 +172,18 @@ p {
   width: 300px;
   background-color: white;
   border-radius: 10px;
-  box-shadow: 0px 4px 60px #5a31b2;
+  box-shadow: 0px 4px 60px #B2314A;
 }
 #titleFour {
   margin-top: 20px;
-  margin-left: 100px;
+  margin-left: 95px;
   height: 30px;
+  width: 20px;
   display: flex;
   align-items: center;
   background-color: white;
   color: black;
-  font-size: large;
+  font-size: 20px;
   font-weight: bold;
 }
 #card_one_two img {
@@ -158,7 +198,7 @@ p {
   width: 300px;
   background-color: white;
   border-radius: 10px;
-  box-shadow: 0px 4px 60px #5a31b2;
+  box-shadow: 0px 4px 60px #B2314A;
 }
 #titleFive {
   margin-top: 20px;
@@ -168,7 +208,7 @@ p {
   align-items: center;
   background-color: white;
   color: black;
-  font-size: large;
+  font-size: 20px;
   font-weight: bold;
 }
 #card_two_two img {
@@ -183,4 +223,12 @@ p {
   justify-content: space-around;
   margin-top: 100px;
   color: chocolate;
+  width: 100vw;
+  border-top: 2px solid rgb(26, 25, 25);
+  padding-bottom: 30px;
+}
+h5 {
+  margin-top: 5px;
+  color: chocolate;
+  letter-spacing: 2px;
 }
