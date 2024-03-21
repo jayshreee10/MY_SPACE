@@ -15,9 +15,12 @@
   letter-spacing: 5px;
   border-bottom: 1px solid rgb(26, 25, 25);
   padding-top: 10px;
+ 
 }
 h1 {
   margin-top: 10px;
+  opacity: 80%;
+
 }
 #Banner {
   color: white;
@@ -45,7 +48,7 @@ h1 {
 }
 h2 {
   background-color: transparent;
-  opacity:40% ;
+  opacity: 40%;
   letter-spacing: 5px;
 }
 #Banner img {
@@ -81,7 +84,7 @@ h2 {
   width: 300px;
   background-color: white;
   border-radius: 10px;
-  box-shadow: 0px 4px 60px #B2314A;
+  box-shadow: 0px 4px 60px #b2314a;
 }
 #titleOne {
   margin-top: 20px;
@@ -113,7 +116,7 @@ p {
   width: 300px;
   background-color: white;
   border-radius: 10px;
-  box-shadow: 0px 4px 60px #B2314A;
+  box-shadow: 0px 4px 60px #b2314a;
 }
 #titleTwo {
   margin-top: 20px;
@@ -138,7 +141,7 @@ p {
   width: 300px;
   background-color: white;
   border-radius: 10px;
-  box-shadow: 0px 4px 60px #B2314A;
+  box-shadow: 0px 4px 60px #b2314a;
 }
 #titleThree {
   margin-top: 20px;
@@ -172,7 +175,7 @@ p {
   width: 300px;
   background-color: white;
   border-radius: 10px;
-  box-shadow: 0px 4px 60px #B2314A;
+  box-shadow: 0px 4px 60px #b2314a;
 }
 #titleFour {
   margin-top: 20px;
@@ -198,7 +201,7 @@ p {
   width: 300px;
   background-color: white;
   border-radius: 10px;
-  box-shadow: 0px 4px 60px #B2314A;
+  box-shadow: 0px 4px 60px #b2314a;
 }
 #titleFive {
   margin-top: 20px;

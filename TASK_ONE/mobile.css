@@ -1,0 +1,76 @@
+@media only screen and (width <= 500px) {
+  #Header {
+    width: 100vw;
+    height: 10vh;
+    text-align: center;
+  }
+  h1 {
+    font-size: 22px;
+  }
+  #Banner {
+    opacity: 80%;
+  }
+  #About {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    flex-direction: column;
+    font-weight: 200;
+    font-size: 30px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 455px;
+    background-color: transparent;
+  }
+  h2 {
+    background-color: transparent;
+    opacity: 70%;
+    letter-spacing: 5px;
+  }
+  #Content {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #Description {
+    text-align: justify;
+    font-size: larger;
+    width: 75vw;
+    color: white;
+    padding-bottom: 30px;
+  }
+  #Section_row_one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 130vh;
+  }
+  #Section_row_two {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 85vh;
+  }
+  #Footer {
+    display: flex;
+    margin-top: 100px;
+    color: chocolate;
+    width: 100vw;
+    border-top: 2px solid rgb(26, 25, 25);
+    padding-bottom: 30px;
+    font-size: small;
+  }
+  h5 {
+    margin-top: 5px;
+    color: rgb(226, 220, 39);
+    font-size: 10px;
+    font-weight: 100;
+  }
+}
