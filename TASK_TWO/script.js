@@ -1,6 +1,5 @@
-let UserSubmit = document
-  .getElementById("UserSubmit")
-  .addEventListener("click", function (event) {
+
+   let UserSubmit = document.getElementById("UserSubmit").addEventListener("click", function (event) {
     event.preventDefault();
     let UserName = document.getElementById("UserName").value.trim();
     let UserEmail = document.getElementById("UserEmail").value;
@@ -10,10 +9,12 @@ let UserSubmit = document
     let isValidEmail = validateUserEmail(UserEmail);
     let isValidCell = validateUserCell(UserCell);
     let isValidPassword = validateUserPassword(UserPassword);
-
-    if (isValidName && isValidEmail && isValidCell && isValidPassword) {
+    if (isValidName && isValidEmail && isValidCell && isValidPassword) 
+    {
       alert("User Details Submitted");
+      document.getElementById("UserInput").reset();
     } else alert("Input Valid User Details");
+    
   });
 
 function validateUserName(Name) {
@@ -42,13 +43,14 @@ function validateUserEmail(Email) {
 
 function validateUserCell(Number) {
   if (typeof Number !== "string") {
+    
     return false;
   }
 
-  if (Number.length < 10) {
-    return false;
+  if (Number.length == 10) {
+    return true;
   }
-  return true;
+  return false;
 }
 
 function validateUserPassword(Password) {
@@ -56,8 +58,8 @@ function validateUserPassword(Password) {
     return false;
   }
 
-  if (Password.length < 8) {
+  if (Password.length !== 8) {
     return false;
-  }
+  } 
   return true;
 }
