@@ -2,7 +2,7 @@ let UserSubmit = document
   .getElementById("UserSubmit")
   .addEventListener("click", function (event) {
     event.preventDefault();
-    let UserName = document.getElementById("UserName").value;
+    let UserName = document.getElementById("UserName").value.trim();
     let UserEmail = document.getElementById("UserEmail").value;
     let UserCell = document.getElementById("UserCell").value;
     let UserPassword = document.getElementById("UserPassword").value;
