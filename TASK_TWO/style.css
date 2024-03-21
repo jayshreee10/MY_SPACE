@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   font-family: Poppins;
+  background-color: black;
 }
 .UserPage {
   height: 100vh;
@@ -11,12 +12,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url("assets/background/user_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #UserInput {
   background-color: black;
   height: 30vh;
   padding: 40px;
   width: 25vw;
+  border-radius: 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -25,8 +31,11 @@
 input {
   height: 30px;
   width: 250px;
+  border-radius: 10px;
+  background-color: white;
 }
 #UserSubmit{
-    background-color: gold;
+    background-color:#FFA800;
     width: 252px;
+    height: 35px;
 }

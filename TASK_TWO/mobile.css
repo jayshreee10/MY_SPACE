@@ -1,0 +1,24 @@
+@media only screen and (width <= 500px) {
+    #UserInput {
+        background-color: black;
+        height: 30vh;
+        padding: 40px;
+        width: 60vw;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+      }
+      input {
+        height: 25px;
+        width: 200px;
+        border-radius: 5px;
+      }
+      #UserSubmit{
+        background-color: gold;
+        width: 200px;
+        height: 30px;
+    }
+
+}
