@@ -47,10 +47,10 @@ function validateUserCell(Number) {
     return false;
   }
 
-  if (Number.length == 10) {
-    return true;
+  if (Number.length !== 10) {
+    return false;
   }
-  return false;
+  return true;
 }
 
 function validateUserPassword(Password) {
